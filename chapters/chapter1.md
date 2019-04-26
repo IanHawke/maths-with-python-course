@@ -51,7 +51,7 @@ This is wrong: read the argument passed in carefully.
 
 <exercise id="4" title="Packages" type="slides">
 
-<slides source="chapter1_03_packages">
+<slides source="chapter1_04_packages">
 </slides>
 
 </exercise>
