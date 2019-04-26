@@ -1,11 +1,13 @@
-import json
+import math
 
-# This code will run relative to the root of the repo, so we can load files
-with open("exercises/bookquotes.json") as f:
-    DATA = json.loads(f.read())
+# 8! written out by hand
+___ = 8*7*6*5*4*3*2*1
 
-# Print the first record in the DATA
-print(___[____])
+# Print the result
+print(eight_factorial)
 
-# Assign the length of DATA to some_var
-some_var = ___
+# print the result from the math library
+print(math.___(8))
+
+# Print that the two agree
+print(eight_factorial == math.___(8))

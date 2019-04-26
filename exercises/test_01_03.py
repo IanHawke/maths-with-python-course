@@ -5,7 +5,7 @@ def test():
     # in the meta.json for details.
 
     # If an assertion fails, the message will be displayed
-    assert "print(DATA[0])" in __solution__, "Are you printing the first record?"
-    assert some_var == len(DATA), "Are you getting the correct length?"
+    assert "eight_factorial" in globals(), "Did you assign 8*...*1 to the variable eight_factorial?"
+    assert "print(math.factorial(8))" in __solution__, "Are you using the `math.factorial` function?"
 
     __msg__.good("Well done!")

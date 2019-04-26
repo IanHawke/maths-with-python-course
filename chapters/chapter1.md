@@ -20,20 +20,20 @@ id: 1
 How can you make Python display the result of 4! to the screen?
 
 <choice>
-<opt text="`print 4*3*2*1`">
+<opt text="print 4*3*2*1">
 
 This will not work. In modern Python, `print` is a function. You must put its
 argument inside brackets.
 
 </opt>
 
-<opt text="`print(3*2*2)`" correct="true">
+<opt text="print(3*2*2)" correct="true">
 
 Correct! This is, of course, a silly way of writing `print(4*3*2*1)`.
 
 </opt>
 
-<opt text="`print(4*3*1*1)`">
+<opt text="print(4*3*1*1)">
 
 This is wrong: read the argument passed in carefully.
 
@@ -42,19 +42,17 @@ This is wrong: read the argument passed in carefully.
 
 </exercise>
 
-<exercise id="3" title="First steps">
+<exercise id="3" title="Factorials">
 
-This is a code exercise. The content can be formatted in simple Markdown – so
-you can have **bold text**, `code` or [links](https://spacy.io) or lists, like
-the one for the instructions below.
-
-- These are instructions and they can have bullet points.
-- The code block below will look for the files `exc_01_03`, `solution_01_03` and
-  `test_01_03` in `/exercises`.
+Calculate 8! by explicitly multiplying all integers from 1 to 8 and assign the
+result to the variable `eight_factorial`. Use the appropriate function from the
+`math` library to check that the numbers match. Check the output when you
+directly compare the values using `==`.
 
 <codeblock id="01_03">
 
-This is a hint.
+The function from `math` providing the factorial is `math.factorial`. It takes
+one argument - the number whose factorial is to be returned.
 
 </codeblock>
 

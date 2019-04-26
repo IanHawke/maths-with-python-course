@@ -4,7 +4,7 @@ type: slides
 
 # Introduction
 
-This is a course for mathematicians, or those who want to think like one.
+Notes: This is a course for mathematicians, or those who want to think like one.
 There's overlaps between how mathematicians think about problems and how coders
 do. There's substantial differences as well. Just as coders find mathematical
 language and notation useful, so do mathematicians find coding useful. This
@@ -24,10 +24,10 @@ print("Hello world")
 Hello world
 ```
 
-Whenever we do something we're going to want to see output: to check whether we
-did the right thing. The `print` function takes its input (here a *string*,
-`"Hello world"`, which are characters enclosed by quotes `"`) and displays the
-result to the screen.
+Notes: Whenever we do something we're going to want to see output: to check
+whether we did the right thing. The `print` function takes its input (here a
+*string*, `"Hello world"`, which are characters enclosed by quotes `"`) and
+displays the result to the screen.
 
 ---
 
@@ -47,4 +47,10 @@ print(2**4)
 16
 ```
 
-Note that to `**` raises the first number to the power of the second.
+Notes: Note that `**` raises the first number to the power of the second.
+
+---
+
+# Let's practice!
+
+Notes: Move on to some exercises.
