@@ -4,12 +4,16 @@ type: slides
 
 # Introduction
 
-Notes: Text at the end of a slide prefixed like this will be displayed as
-speaker notes on the side. Slides can be separated with a divider: ---.
+This is a course for mathematicians, or those who want to think like one.
+There's overlaps between how mathematicians think about problems and how coders
+do. There's substantial differences as well. Just as coders find mathematical
+language and notation useful, so do mathematicians find coding useful. This
+course introduces coding - in particular, Python - from a mathematicians'
+point of view.
 
 ---
 
-# This is a slide
+# Getting output
 
 ```python
 # Print something
@@ -20,20 +24,27 @@ print("Hello world")
 Hello world
 ```
 
-- Slides can have code, bullet points, tables and pretty much all other Markdown
-  elements.
-- This is another bullet point.
-
-<img src="profile.jpg" alt="This image is in /static" width="25%">
-
-Notes: Some more notes go here
+Whenever we do something we're going to want to see output: to check whether we
+did the right thing. The `print` function takes its input (here a *string*,
+`"Hello world"`, which are characters enclosed by quotes `"`) and displays the
+result to the screen.
 
 ---
 
-# Let's practice!
+# Python as calculator
 
-Notes: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique
-libero at est congue, sed vestibulum tortor laoreet. Aenean egestas massa non
-commodo consequat. Curabitur faucibus, sapien vitae euismod imperdiet, arcu erat
-semper urna, in accumsan sapien dui ac mi. Pellentesque felis lorem, semper nec
-velit nec, consectetur placerat enim.
+The standard mathematical operations work in Python:
+
+```python
+print(1+2)
+print(13.5*2.6-1.4)/10.2
+print(2**4)
+```
+
+```out
+3
+3.3039215686274517
+16
+```
+
+Note that to `**` raises the first number to the power of the second.

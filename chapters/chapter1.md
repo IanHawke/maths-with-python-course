@@ -1,8 +1,7 @@
 ---
 title: 'Chapter 1: Getting started'
 description:
-  'This chapter will teach you about many cool things and introduce you to the
-  most important concepts of the course.'
+  'This chapter will teach you using Python as a calculator'
 prev: null
 next: /chapter2
 type: chapter
@@ -16,26 +15,27 @@ id: 1
 
 </exercise>
 
-<exercise id="2" title="Getting Started">
+<exercise id="2" title="Printing">
 
-Let's ask some questions about the slides. Whats the correct answer?
+How can you make Python display the result of 4! to the screen?
 
 <choice>
-<opt text="Answer one">
+<opt text="`print 4*3*2*1`">
 
-This is not the correct answer.
-
-</opt>
-
-<opt text="Answer two" correct="true">
-
-Good job!
+This will not work. In modern Python, `print` is a function. You must put its
+argument inside brackets.
 
 </opt>
 
-<opt text="Answer three">
+<opt text="`print(3*2*2)`" correct="true">
 
-This is not correct either.
+Correct! This is, of course, a silly way of writing `print(4*3*2*1)`.
+
+</opt>
+
+<opt text="`print(4*3*1*1)`">
+
+This is wrong: read the argument passed in carefully.
 
 </opt>
 </choice>
