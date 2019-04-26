@@ -36,6 +36,12 @@ print(x)
 "Hello"
 ```
 
+Notes: There's a lot of mathematical power in giving a specific value a general name. When doing algebra you know that each variable can be replaced by a specific value, but by manipulating things at the more abstract level you can get more general solutions. To do this in code we assign a label, or name, to a value. This *variable* can now be used whenever we want its value. In Python you can use the same variable on any sort of value, like a sticky note: pick up the note `x` from the integer `3` and move it onto the string `Hello`, and Python is perfectly happy.
+
+---
+
+# Using variables
+
 Operations can use variables: their current value is substituted:
 
 ```python
@@ -48,7 +54,7 @@ print(2*x + y/2)
 4.1
 ```
 
-Notes: There's a lot of mathematical power in giving a specific value a general name. When doing algebra you know that each variable can be replaced by a specific value, but by manipulating things at the more abstract level you can get more general solutions. To do this in code we assign a label, or name, to a value. This *variable* can now be used whenever we want its value. In Python you can use the same variable on any sort of value, like a sticky note: pick up the note `x` from the integer `3` and move it onto the string `Hello`, and Python is perfectly happy. We can then mix variables and numbers or other variables in operations, like the last mathematical operation.
+Notes: We can then mix variables and numbers or other variables in operations. This reads much more like a mathematical, algebraic expression.
 
 ---
 
