@@ -24,15 +24,6 @@ print("Hello world")
 Hello world
 ```
 
-Notes: Whenever we do something we're going to want to see output: to check
-whether we did the right thing. The `print` function takes its input (here a
-*string*, `"Hello world"`, which are characters enclosed by quotes `"`) and
-displays the result to the screen.
-
----
-
-# Python as calculator
-
 The standard mathematical operations work in Python:
 
 ```python
@@ -47,7 +38,10 @@ print(2**4)
 16
 ```
 
-Notes: Note that `**` raises the first number to the power of the second.
+Notes: Whenever we do something we're going to want to see output: to check
+whether we did the right thing. The `print` function takes its input (here a
+*string*, `"Hello world"`, which are characters enclosed by quotes `"`) and
+displays the result to the screen. Note that `**` raises the first number to the power of the second.
 
 ---
 

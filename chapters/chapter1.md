@@ -42,14 +42,28 @@ This is wrong: read the argument passed in carefully.
 
 </exercise>
 
-<exercise id="3" title="Factorials">
+<exercise id="3" title="Variables" type="slides">
+
+<slides source="chapter1_03_variables">
+</slides>
+
+</exercise>
+
+<exercise id="4" title="Packages" type="slides">
+
+<slides source="chapter1_03_packages">
+</slides>
+
+</exercise>
+
+<exercise id="5" title="Factorials">
 
 Calculate 8! by explicitly multiplying all integers from 1 to 8 and assign the
 result to the variable `eight_factorial`. Use the appropriate function from the
 `math` library to check that the numbers match. Check the output when you
 directly compare the values using `==`.
 
-<codeblock id="01_03">
+<codeblock id="01_05">
 
 The function from `math` providing the factorial is `math.factorial`. It takes
 one argument - the number whose factorial is to be returned.
