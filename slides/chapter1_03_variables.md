@@ -99,6 +99,8 @@ Programmers prefer long, descriptive names:
 - `solve_differential_equation`;
 - `stiffness_matrix`.
 
+Python variables must start with a letter, and not contain spaces or special characters except `_`.
+
 Notes: Mathematicians prefer short names, often a single character, as it makes it easier to read and carry out calculations and proofs with lots of terms. Lots of operations will also be implicit in mathematical notation (for example, multiplying two variables $x$ and $y$ is shown by $xy$, which is different to the single variable with two characters `xy`). This reduces the amount of reading and writing, and also the cognitive load. That is, it hides the "non-essential" details whilst doing the calculation. For programmers it is easier to build up operations step-by-step, and it is easier to avoid mistakes by using long, descriptive variable names. This makes it easier to see the purpose of any single term immediately, and tools (such as tab completion) in editors minimise the amount of typing and mistakes. Both approaches are valid, and you should practice translating between the two.
 
 ---
