@@ -89,7 +89,7 @@ result to the variable `eight_factorial`. Use the appropriate function from the
 `math` library to check that the numbers match. Check the output when you
 directly compare the values using `==`.
 
-<codeblock id="01_05">
+<codeblock id="01_06">
 
 The function from `math` providing the factorial is `math.factorial`. It takes
 one argument - the number whose factorial is to be returned.
