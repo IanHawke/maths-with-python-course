@@ -28,6 +28,7 @@ class Slides extends React.Component {
         import('reveal.js').then(({ default: Reveal }) => {
             window.Reveal = Reveal
             window.marked = Marked
+            import('reveal.js/plugin/math/math.js')
             import('reveal.js/plugin/markdown/markdown.js').then(({ RevealMarkdown }) => {
                 RevealMarkdown.init()
                 Reveal.initialize({
@@ -39,9 +40,16 @@ class Slides extends React.Component {
                     height: 600,
                     minScale: 0.75,
                     maxScale: 1,
+                    math: {
+                  		mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+                  		config: 'TeX-AMS_HTML-full',  // See http://docs.mathjax.org/en/latest/config-files.html
+                  		// pass other options into `MathJax.Hub.Config()`
+                  	},
+                    dependencies: [
+                      { src: 'plugin/math/math.js', async: true }
+                    ],
                 })
             })
-            import('reveal.js/plugin/math/math.js')
         })
     }
 
