@@ -19,7 +19,7 @@ id: 2
 
 Write a function `cuboid_volume` to calculate the volume of a cuboid box. The inputs should be the edge lengths of the cuboid, $a, b, c$. The output should be the volume $a \times b \times c$.
 
-<codeblock id="02_06">
+<codeblock id="02_02">
 
 We will talk later about what it means for a function to have multiple inputs and multiple outputs.
 

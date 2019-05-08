@@ -5,7 +5,7 @@ def test():
     # in the meta.json for details.
 
     # If an assertion fails, the message will be displayed
-    assert "cuboid_volume" in globals(), "Did you call the function cuboid_volume?"
+    assert "cuboid_volume" in globals(), "Did you name the function cuboid_volume?"
     assert callable(cuboid_volume), "Your cuboid_volume is not a valid function?"
     assert cuboid_volume(1, 1, 1)==1, "Your function gives errors when a=b=c=1 (should return 1)."
     assert cuboid_volume(1, 2, 3.5)==7, "Your function gives errors when a=1, b=2, c=3.5 (should return 7)."
