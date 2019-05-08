@@ -1,10 +1,9 @@
 ---
-title: 'Chapter 2: More stuff'
+title: 'Chapter 2: Functions'
 description:
-  'This chapter will teach you even more stuff and help you learn some new
-  concepts.'
+  'This chapter will teach you about functions, and how mathematical and computational versions differ.'
 prev: /chapter1
-next: null
+next: /chapter3
 type: chapter
 id: 2
 ---
