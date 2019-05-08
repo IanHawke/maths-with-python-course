@@ -13,15 +13,15 @@ Notes: In chapter 1 we saw how to use Python as a calculator. We also saw how we
 A function is a black box that takes some input and gives some output.
 $$
 \begin{aligned}
-f(x) &= 2 x. \\
-f: x &\to 2 x. \\
+f(x) &= 2 x. \\\\
+f: x &\to 2 x. \\\\
 f: \mathbb{R} &\to \mathbb{R}.
 \end{aligned}
 $$
 This is the same function written three ways. Sometimes see two used together, as:
 $$
 \begin{aligned}
-f: \mathbb{R} &\to \mathbb{R},
+f: \mathbb{R} &\to \mathbb{R}, \\\\
 f(x) &= 2 x.
 \end{aligned}
 $$
@@ -65,7 +65,7 @@ def degrees_to_radians(theta_d):
     return theta_r
 ```
 
-Test it, remembering $90^{\deg} = \pi / 2 \simeq 1.5708$.
+Test it, remembering $90^{\circ} = \pi / 2 \simeq 1.5708$.
 
 ```python
 print(degrees_to_radians(90.0))

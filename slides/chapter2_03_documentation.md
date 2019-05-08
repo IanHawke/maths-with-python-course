@@ -35,7 +35,8 @@ import math
 
 def degrees_to_radians(theta_d):
     """
-    Convert an angle from degrees to radians.
+    Convert an angle from degrees to radians. As pi radians is 180 degrees,
+    the conversion formula is theta_r = theta_d * pi / 180.
 
     Parameters
     ----------
@@ -48,12 +49,6 @@ def degrees_to_radians(theta_d):
 
     theta_r: float
         Angle in radians
-
-    Notes
-    -----
-
-    As pi radians is 180 degrees, the conversion formula is
-    theta_r = theta_d * pi / 180.
     """
     theta_r = theta_d * math.pi / 180.0
     return theta_r
