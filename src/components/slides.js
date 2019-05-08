@@ -40,13 +40,8 @@ class Slides extends React.Component {
                     height: 600,
                     minScale: 0.75,
                     maxScale: 1,
-                    math: {
-                  		mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
-                  		config: 'TeX-AMS_HTML-full',  // See http://docs.mathjax.org/en/latest/config-files.html
-                  		// pass other options into `MathJax.Hub.Config()`
-                  	},
                     dependencies: [
-                      { src: 'plugin/math/math.js', async: true }
+                      { src: 'reveal.js/plugin/math/math.js', async: true }
                     ],
                 })
             })
@@ -60,6 +55,7 @@ class Slides extends React.Component {
         delete window.marked
         delete require.cache[require.resolve('reveal.js')]
         delete require.cache[require.resolve('reveal.js/plugin/markdown/markdown.js')]
+        delete require.cache[require.resolve('reveal.js/plugin/math/math.js')]
     }
 
     render() {
