@@ -4,6 +4,8 @@ import classNames from 'classnames'
 import { Button } from './button'
 import classes from '../styles/choice.module.sass'
 
+import "katex/dist/katex.min.css"
+
 const Choice = ({ id = '0', children = [] }) => {
     const [selected, setSelected] = useState(null)
     const [answer, setAnswer] = useState(null)

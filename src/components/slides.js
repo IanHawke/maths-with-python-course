@@ -6,6 +6,8 @@ import classNames from 'classnames'
 import '../styles/reveal.css'
 import classes from '../styles/slides.module.sass'
 
+import "katex/dist/katex.min.css"
+
 function getFiles({ allMarkdownRemark }) {
     return Object.assign(
         {},
@@ -39,6 +41,7 @@ class Slides extends React.Component {
                     maxScale: 1,
                 })
             })
+            import('reveal.js/plugin/math/math.js')
         })
     }
 
