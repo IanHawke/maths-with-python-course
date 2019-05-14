@@ -7,3 +7,10 @@ next: null
 type: chapter
 id: 3
 ---
+
+<exercise id="1" title="Introduction" type="slides">
+
+<slides source="chapter3_01_introduction">
+</slides>
+
+</exercise>
